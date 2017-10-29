@@ -76,6 +76,7 @@ $(function () {
       }
     })
   });
+  //重置表单状态
   $("[type='reset']").on("click",function () {
     validator.resetForm();
     // console.log(1);
