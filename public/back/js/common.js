@@ -43,9 +43,11 @@ $(function () {
   var $header_more = $(".header_more");
   var $aside = $(".lt_aside");
   var $header = $(".lt_header");
+  var $main=$(".lt_main");
   $header_more.on("click", function () {
     $aside.toggleClass("now");
     $header.toggleClass("now");
+    $main.toggleClass("now");
   })
 })
 

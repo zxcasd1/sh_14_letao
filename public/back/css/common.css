@@ -13,7 +13,9 @@ a:link, a:visited, a:hover, a:active {
 li{
   list-style: none;
 }
-
+.mb15{
+  margin-bottom: 15px;
+}
 /*通用样式结束*/
 
 /*登陆页面开始*/
@@ -115,7 +117,8 @@ li{
 .lt_header.now{
   padding-left: 0px;
 }
-.lt_main .lt_header .icon_cate,.lt_main .lt_header .icon_out{
+.lt_main .lt_header .icon_cate,
+.lt_main .lt_header .icon_out{
   color: #fff;
   font-size: 20px;
   line-height: 50px;
@@ -133,9 +136,36 @@ li{
 /*模态框结束*/
 
 /*主体部分开始*/
+
 .lt_main{
+  width: 100%;
   margin-top: 60px;
-  margin-left: 200px;
-  margin-right: 20px;
+  padding-left: 200px;
+  padding-right: 20px;
+  transition: all 1s;
+}
+.lt_main.now{
+  padding-left: 20px;
 }
 /*主体部分结束*/
+
+/*用户表格开始*/
+.user_table th{
+  text-align: center;
+}
+.user_table tbody tr td{
+  text-align: center;
+  vertical-align: middle;
+}
+/*用户表格结束*/
+
+.pic_box{
+  position: relative;
+}
+.pic_btn{
+  position: absolute;
+  top: 5px;
+  left: 0;
+  opacity: 0;
+  z-index: 999;
+}
