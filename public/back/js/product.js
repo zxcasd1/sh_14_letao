@@ -176,7 +176,7 @@ $(function () {
       url:"/product/addProduct",
       data:param,
       success:function (data) {
-         // console.log(data);
+         console.log(data);
         if(data.success){
           $("#cateModal").modal("hide");
           currentPage=1;

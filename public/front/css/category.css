@@ -1,0 +1,50 @@
+.lt_cate {
+  width: 90px;
+  height: 100%;
+  background-color: #eee;
+  overflow: hidden;
+  float: left;
+}
+
+.lt_cate ul {
+  width: 90px;
+ 
+}
+
+.lt_cate li {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.lt_cate li.now {
+  border-right: 1px solid transparent;
+}
+
+.lt_brand {
+
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /*background-color: pink;*/
+
+}
+
+.lt_brand li {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+}
+
+.lt_brand img {
+  display: block;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+
+
+
